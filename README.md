@@ -27,3 +27,11 @@ require_once __DIR__ . '/vendor/autoload.php';
 //IF NO ROUTES MATCH
 echo new Message('<h1>Page not found!</h1>', 404, 'text/html; charset=utf-8');
 ```
+
+Methods:
+- GET
+- POST
+- PUT
+- DELETE
+
+Router use regular expressions like this: **/api/user/(\d+)**
