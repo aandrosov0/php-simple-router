@@ -1,0 +1,19 @@
+{
+    "name": "aandrosov/php-router",
+    "description": "The simplest php router",
+    "type": "library",
+    "license": "CC0-1.0",
+    "autoload": {
+        "psr-4": {
+            "PhpRouter\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "aandrosov0",
+            "email": "aandrosov338@gmail.com"
+        }
+    ],
+    "require": {}
+}
