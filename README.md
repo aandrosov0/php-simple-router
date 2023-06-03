@@ -6,7 +6,7 @@ composer require aandrosov/php-router
 ```
 
 ## Example of usage
-```
+```php
 <?php 
 use PhpRouter\JSONMessage;
 use PhpRouter\Message;
