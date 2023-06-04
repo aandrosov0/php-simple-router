@@ -8,6 +8,6 @@ class Message {
     public function __toString(): string {
         http_response_code($this->responseCode);
         header('Content-Type: ' . $this->contentType);
-        return $this->message;
+        return $this->message . PHP_EOL;
     }
 }
