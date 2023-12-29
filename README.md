@@ -34,4 +34,4 @@ Methods:
 - PUT
 - DELETE
 
-Router use regular expressions like this: **/api/user/(\d+)**
+Router uses regular expressions like this: **/api/user/(\d+)**
